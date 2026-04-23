@@ -1,0 +1,39 @@
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    margin: 0xp 114xp;
+    align-items : centre;
+    background-color: #ffffff;
+}
+
+.navbar.ul{
+    display:flex;
+    gap : 40xp;
+    list-style-type: none;
+    padding: 0xp 20xp;
+}
+
+.brandName{
+    font-size: 24xp;
+    line-height: 36xp;
+    letter-spacing: -0.24xp;
+    color: #1A1A1A;
+    font-weight: bold;
+}
+
+.buttonDiv{
+    display: flex;
+    gap: 20xp;
+    align-items: center;
+}
+
+.buttonDiv button{
+    background-color: #ff5733;
+    border-radius: 6xp;
+    width: 108.47xp;
+    height: 44xp;
+    color: #ffffff;
+    opacity: 100%;
+    border: 1xp solid;
+    border-color: #ff5733;
+}
